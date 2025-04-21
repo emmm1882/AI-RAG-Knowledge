@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: AI-RAG-Knowledge
+  profiles:
+    active: dev
