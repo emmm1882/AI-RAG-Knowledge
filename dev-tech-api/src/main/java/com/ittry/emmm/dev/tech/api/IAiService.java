@@ -9,4 +9,5 @@ public interface IAiService {
 
     Flux<ChatResponse> generateStream(String model, String message);
 
+    Flux<ChatResponse> generateStreamRag(String model, String ragTag, String message);
 }
